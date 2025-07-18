@@ -1,6 +1,5 @@
 library;
 
-export './core/containers/either.dart';
 export './core/extensions/index.dart';
 export './core/models/input_control.dart';
 export './helpers/debugging_printer.dart';
