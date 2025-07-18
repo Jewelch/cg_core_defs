@@ -322,4 +322,4 @@ In addition to my technical expertise, I bring strong leadership and teamwork ca
 
 ---
 
-**Made with ❤️ by Jewel Cheriaa**
+**Made with ⏳ patience by Jewel Cheriaa**
