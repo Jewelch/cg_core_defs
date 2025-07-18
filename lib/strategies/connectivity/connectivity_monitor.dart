@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
-import '../components/observable.dart';
-import '../helpers/debugging_printer.dart';
+import '../../components/observable.dart';
+import '../../helpers/debugging_printer.dart';
 
-export '../components/observable.dart';
+export '../../components/observable.dart';
 
 /// Represents different types of network connections
 enum ConnectionType { wifi, mobile, ethernet, vpn, none }

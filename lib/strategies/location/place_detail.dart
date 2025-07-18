@@ -1,4 +1,4 @@
-import 'package:cg_core_defs/location/location_plugin.dart';
+import 'package:cg_core_defs/strategies/location/location_plugin.dart';
 import 'package:equatable/equatable.dart';
 
 class PlaceDetail with EquatableMixin {
