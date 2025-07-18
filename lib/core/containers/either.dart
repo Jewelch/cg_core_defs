@@ -28,3 +28,16 @@ class Right<L, R> extends Either<L, R> {
   const Right(this._r);
   R get value => _r;
 }
+
+/// Extension on Either to provide left and right getters
+extension EitherExtension<L, R> on Either<L, R> {
+  /// Gets the left value if this is a Left, throws if it's a Right
+  L get left {
+    return fold((left) => left, (right) => throw StateError('Either is Right, not Left'));
+  }
+
+  /// Gets the right value if this is a Right, throws if it's a Left
+  R get right {
+    return fold((left) => throw StateError('Either is Left, not Right'), (right) => right);
+  }
+}
